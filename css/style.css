@@ -14,6 +14,7 @@ html
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     height: 100vh;
+    margin-bottom: 500px;
 }
 
 .clearfix {zoom: 1;}
@@ -32,6 +33,10 @@ html
     background-repeat: no-repeat;
     background-size: cover;
     height:620px; 
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
 }
 
 
@@ -40,7 +45,7 @@ html
     margin: 220px 500px 0 190px;
     color: #fff;
     line-height: 3rem;
-    padding-top: 100px;
+    padding:150px 0 0 0;
 }
 
 /*Button*/
@@ -53,7 +58,7 @@ html
 .btn-rectangle-men:visited
 {
     
-    box-shadow: inset -400px 0 0 0 #fff;
+    box-shadow: inset -250px 0 0 0 #fff;
     border: 2px solid #fff;
     color: #000;
     text-align: center;
@@ -69,7 +74,7 @@ html
 .btn-rectangle-wom:link,
 .btn-rectangle-wom:visited
 {
-    box-shadow: inset -400px 0 0 0 #fff;
+    box-shadow: inset -250px 0 0 0 #fff;
     border: 2px solid #fff;   
     color: #000;
     padding: 0px 77px;
@@ -101,18 +106,39 @@ html
 }
 
 /*nav-bar*/
-
 .nav-bar
 {
-    padding: 50px 0px 0 0px;
-    max-width: 90%;
+    padding: 25px 0px 15px 0px;
+    max-width: 100%;
     margin: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline;
+    box-shadow: inset 0px 0px 1000px #000;
 }
+
 .nav-bar a
 {
     list-style: none;
     text-decoration: none;
-    color: #fff;
+    color: #fff;  
+}
+
+.offer
+{
+    color:white;
+    height: 50px;
+    width:120px;
+    text-align: center;
+    background-color: #000;
+    overflow-x: hidden;
+    position: fixed;
+    bottom:150;
+    left:0;
+    z-index: 5;
 }
 
 .nav-right 
@@ -123,6 +149,7 @@ html
 .nav-left
 {
     float: left;
+    margin-left: 50px;
 }
 
 .nav-right li
@@ -130,7 +157,6 @@ html
     display: inline;
     margin-right: 35px;
     font-size: 90%;
-
 }
 
 .nav-left li
@@ -162,12 +188,9 @@ html
     border-radius: 50%;
     height: 25px;
     text-align: center;
+    padding:3px 0 0 0px;
     width: 25px;
     display: inline-block;
     
 }
 /*icon*/
-.search-icon
-{
-    display: inline;
-}

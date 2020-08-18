@@ -117,6 +117,7 @@ body
     right: 0;
     display: inline;
     box-shadow: inset 0px 0px 1000px #000;
+    z-index: 2;
 }
 
 .nav-bar a
@@ -155,16 +156,17 @@ body
     color:#fff !important;
     position: fixed;
     text-align: center;
-    padding:3px 10px;
+    padding: 3px 10px;
     font-weight:700;
     right:1%;
     border-radius: 50px;
     font-size:100%;
     bottom:2%;
     cursor: pointer;
-    padding-top:8px;
-
+    padding-top: 6px;
+    z-index: 1;
 }
+
 .nav-right 
 { 
     float: right;
@@ -228,7 +230,6 @@ body
     padding:2px 0 0 0px;
     width: 25px;
     display: inline-block;
-    
 }
 /*icon*/
 .search-icon
@@ -236,15 +237,24 @@ body
     vertical-align: top;
 }
 
+.chevrons
+{  
+   text-align: right;
+   margin-bottom:100px;
+   
+}
+
 .left-section
 {
-    height:2%;
-    width:2%;
+    height:3%;
+    width:3%;
+   
 }
 .right-section
 {
-    height:150px;
-    width:150px;
+    height:3%;
+    width:3%;
+    cursor: pointer;
 }
 
 /*grid*/
@@ -261,6 +271,12 @@ body
 {
     width: 28.3%;
 }
+
+.span-1-of-5 { 
+     width: 100%;
+}
+
+
 
 
 /*section-Typeshoe*/
@@ -309,7 +325,7 @@ body
     margin-top: 2rem;
 }
 
-.section-Typeshoe img
+.Img-boxes img
 {
     width: 100%;
     height: 100%;
@@ -382,21 +398,149 @@ body
 .section-wom-devoe
 {
     margin-top:10%;
-    width: 100%;
+    max-width: 96%;
 }
 
 .leather-wom-shoe{
-    height: auto;
-    width:100%;
+    height: 90%;
+    width: 95%;
 }
 
-.head-wom
+.wom-shoes
 {
-    margin-top: 5%;
+    padding-top: 5%; 
 }
 
+#women
+{
+    font-size:120%;
+}
+.wom-shoes h2
+{
+  margin-top:2%;
+  font-weight:700;   
+}
 .devoe-wom img
 {
+    width: 100%;
     height: 100%;
-    width: 80%;   
+    margin:10px 20px 15px 0;
+}
+
+.devoe-wom
+{
+    margin-top: 2%;
+}
+
+/*Section-Quality*/
+.section-quality
+{
+    max-width:100%;
+    height:auto;
+    overflow: hidden;
+}
+
+.quality-heading
+{
+    padding-bottom: 5%;
+    padding-top:4%;
+}
+.quality-heading h2
+{
+    margin:auto;
+    width: 50%;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.learn-more
+{
+    color:#000;
+    font-weight:600;
+    font-size:110%;
+    margin: 0 0 0 46%;
+    border-bottom: 1.5px solid #000;
+    padding: 1rem;
+}
+
+.learn-more:hover
+{ 
+    text-decoration:none;   
+    color:#000;
+}
+
+.quality-content img{
+    height:70%;
+    width:100%;
+    margin: 0
+}
+
+.quality-content h6{
+    padding-top: 3%;
+}
+
+/*section-visit-us*/
+.section-visit-us
+{
+    max-width: 100%;
+    height:auto;
+    overflow: hidden;
+    margin-top:5%;
+}
+
+.visit-us-heading
+{
+    padding-bottom: 2%;
+}
+.visit-us-heading img{
+    margin-bottom:0.5%;
+}
+.visit-us-heading a
+{   color:#000; 
+   font-size:110%;
+   font-weight: 600;
+  
+}
+
+.visit-us-heading a:hover
+{ 
+   color:#000; 
+}
+
+
+.visit-us-heading span
+{
+    position: relative;
+    left:70%;
+    top:0;
+}
+
+.visit-us-images .col img
+{
+    width: 100%;
+    height:auto;
+    margin:0;
+    padding: 0 0 0 0;
+    border:0; 
+    display: inline-block;
+}
+
+.visit-us-content
+{
+   margin-top:2%;
+}
+
+.visit-us-content h6{
+    font-size:90%;
+}
+
+.visit-us-content span
+{
+    font-size:85%;
+}
+
+.visit-con-1
+{
+    margin-right: 2%;
 }

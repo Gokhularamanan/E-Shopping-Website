@@ -544,3 +544,14 @@ body
 {
     margin-right: 2%;
 }
+
+/*footer*/
+.footer
+{
+    height:50%;
+    width:100%;
+    background-color: #141415;
+    color:#fff;
+    margin-top:5%;
+
+}

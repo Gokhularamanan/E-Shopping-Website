@@ -524,7 +524,9 @@ body
 
 .visit-us-heading
 {
-    padding-bottom: 2%;
+    padding-bottom: 3%;
+    max-width: 80%;
+    margin:auto;
 }
 .visit-us-heading img{
     margin-bottom:0.5%;
@@ -549,19 +551,21 @@ body
     top:0;
 }
 
+.visit-us-images .col
+{
+    display: inline-block;
+    padding:0.05rem;
+}
 .visit-us-images .col img
 {
     width: 100%;
-    height:auto;
-    margin:0;
-    padding: 0 0 0 0;
-    border:0; 
-    display: inline-block;
+    height:60%;
+
 }
 
 .visit-us-content
 {
-   margin-top:2%;
+   margin-top: -8%;
 }
 
 .visit-us-content h6{
@@ -604,14 +608,14 @@ body
 {
     border:1px solid #fff;
     background-color:#141415;
-    padding: 0.9rem 2rem;
-    border-radius: 0;
+    padding: 0.9rem 3rem;
+    border-radius: 0 !important;
     color:#fff;
 }
 
 .footer-lef-con span{
     border:1px solid #fff;
-    padding: 0.95rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 1.1rem 0rem;
     
 }
 
@@ -630,11 +634,11 @@ body
 
 .footer-right-con
 {
-    position: relative;
-    bottom:95%;
-    left:50%;
+    float: right;
+    margin-bottom:50%;
     overflow: hidden;
     clear: both;
+    
 }
 
 .footer-right-con ul
@@ -664,7 +668,7 @@ body
     display: inline-block;
     margin-right: 2%;
     position: relative;
-    top:100%;
+    bottom:0%;
     left:50%;
 
 }
@@ -678,4 +682,112 @@ body
 {
     color: #89898A;
     font-size:60%;
+}
+
+
+/*Media Queries*/
+@media(max-width:960px)
+{
+
+  .main-content
+  {
+     margin-left:1%;
+  }
+  .royal-title
+  {
+      font-size:260%;
+  }
+  .btn-rectangle-men:link,
+  .btn-rectangle-men:visited
+  {
+      padding:3% 10%;
+  }
+  .btn-rectangle-wom:link,
+  .btn-rectangle-wom:visited
+  {
+      padding:3% 10%;
+  }
+  .help
+  {
+     width: 12%;
+     height: 6.8%;
+     padding-top:1%;
+  }
+  .Img-boxes
+  {
+    padding-bottom: 5%;
+  }
+  .btn-allmens
+  {
+      padding:0.7rem 3.5rem;
+  }
+  .leather-wom-shoe{
+      height:100%;
+      width:100%;
+  }
+  .wom-shoes
+  {
+      padding-top:3%;
+  }
+  .quality-heading h2
+  {
+      font-size: 150%;
+      font-weight: 500;
+      width:80%;
+      margin-top:5%;
+  }
+  .learn-more{
+      margin:0 0 0 42%;
+  }
+  .quality-content img
+  {
+      width:100%;
+      height:50%;
+  }
+  .visit-us-heading 
+  {
+      margin:auto;
+      max-width: 95%;
+  }
+  .visit-us-heading span
+  {
+      position: relative;
+      left:62%;
+      top:0;
+  }
+  .visit-us-content
+  {
+      font-size:80%;
+  }
+  .footer-lef-con h2
+  {
+      font-size: 150%;
+  }
+  .footer-lef-con p
+   {
+        font-size: 80%;
+        width:30%;
+        margin-bottom: 5%;     
+   }
+   #email
+   {
+       padding:0.5rem 1rem;
+   }
+   .btn-sign-up
+   {
+       padding: 0.6rem 1rem;
+   }
+   .footer-lef-con span 
+   {
+       padding:0.6rem 0rem 0.65rem 0.1rem;
+   }
+   .social-icons li 
+   {
+      margin-top: 10%;
+   }
+} 
+
+@media(max-width:480px)
+{
+    
 }
